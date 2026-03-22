@@ -18,6 +18,12 @@ function newQuote() {
     authorText.textContent = quote.author;
   }
 
+  if (quote.length > 40) {
+    quoteText.classList.add("long-quote");
+  }else{
+    quoteText.classList.remove("long-quote");
+  }
+
   quoteText.textContent = quote.text;
 }
 

@@ -47,7 +47,7 @@ body {
 }
 
 .long-quote {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .fa-quote-left {
@@ -96,6 +96,7 @@ button:active {
 .fa-twitter{
   font-family: 1.5rem;
 }
+
 
 
 /* Media query */
